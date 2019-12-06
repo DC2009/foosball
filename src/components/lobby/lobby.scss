@@ -1,0 +1,29 @@
+@import '../app/variables';
+
+.LobbyHeader {
+  justify-content: space-between;
+
+  .Logo {
+    max-width: 50%;
+    max-height: calc(#{$HeaderHeight} - 10px);
+  }
+}
+
+.LobbyPlayersContainer {
+  & > h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 8px 0;
+  }
+}
+
+.PlayersList {
+  padding: 4px 0;
+  @media screen and (min-width: $bp-small) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    & > li {
+      margin: 4px;
+    }
+  }
+}

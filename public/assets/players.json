@@ -1,0 +1,68 @@
+[
+  {
+    "name": "John",
+    "surname": "Travolta",
+    "image": "jc.jpg",
+    "username": "player1",
+    "pwd": "p1",
+    "played": 101,
+    "won": 70,
+    "lost": 20,
+    "scores": 120
+  },
+  {
+    "name": "John",
+    "surname": "Malkowich",
+    "image": "js.jpg",
+    "username": "player2",
+    "pwd": "p2",
+    "played": 34,
+    "won": 23,
+    "lost": 10,
+    "scores": 33
+  },
+  {
+    "name": "Harrison",
+    "surname": "Ford",
+    "image": "kmp.jpg",
+    "username": "player3",
+    "pwd": "p3",
+    "played": 12,
+    "won": 2,
+    "lost": 10,
+    "scores": 6
+  },
+  {
+    "name": "Brad",
+    "surname": "Pitt",
+    "image": "pd.jpg",
+    "username": "player4",
+    "pwd": "p4",
+    "played": 55,
+    "won": 35,
+    "lost": 10,
+    "scores": 43
+  },
+  {
+    "name": "Nicholas",
+    "surname": "Cage",
+    "image": "sk.PNG",
+    "username": "player5",
+    "pwd": "p5",
+    "played": 89,
+    "won": 35,
+    "lost": 43,
+    "scores": 12
+  },
+  {
+    "name": "Daniel",
+    "surname": "Craig",
+    "image": "sm.jpg",
+    "username": "player6",
+    "pwd": "p6",
+    "played": 66,
+    "won": 35,
+    "lost": 21,
+    "scores": 55
+  }
+]

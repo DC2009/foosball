@@ -1,0 +1,69 @@
+@import '../app/variables';
+
+.TeamsContainer {
+  & > div {
+    margin: 8px 0;
+  }
+}
+
+.TeamsContainer, .ResultContainer {
+  @media screen and (min-width: $bp-small) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    & > div {
+      margin: 4px;
+    }
+  }
+}
+
+.BarsContainer {
+  width: 100%;
+}
+
+.BottomBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 16px;
+  padding: 8px 0;
+  color: white;
+  text-decoration: none;
+}
+
+.Ok {
+  background-color: green;
+  cursor: pointer;
+}
+
+.Warning {
+  background-color: crimson;
+}
+
+.ResultContainer {
+  :first-child {
+    margin-top: 16px;
+  }
+  :last-child {
+    margin-bottom: 16px;
+  }
+  @media screen and (min-width: $bp-small) {
+    align-items: center;
+    padding-top: 92px;
+    :first-child, :last-child {
+      margin: 16px;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+  }
+}
+
+.GameScore {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+
